@@ -18,9 +18,6 @@ public class TestController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<Test> test() {
-        if (true) {
-        }
-        ;
         return testService.findAll();
     }
 }
